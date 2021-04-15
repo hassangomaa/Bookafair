@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/register.css" />
+    <title>Create an Account</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="has-image"></div>
+
+      <div class="has-form">
+        <!-- I used `h1` to improve the SEO -->
+        <h1>Register</h1>
+
+        <form id="register-form" novalidate>
+          <!-- Full Name Field -->
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input type="text" placeholder="e.g. John Doe" id="name" />
+          </div>
+
+          <!-- Email Field -->
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              placeholder="e.g. john@example.com"
+              id="email"
+            />
+          </div>
+
+          <!-- Password Field -->
+          <div class="field">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              placeholder="At least 8 characters"
+              id="password"
+            />
+          </div>
+
+          <!-- Confirm Password Field -->
+          <div class="field">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              placeholder="Type the password again"
+              id="confirm-password"
+            />
+          </div>
+
+          <!-- Date Of Birth Field -->
+          <div class="field">
+            <label for="date-of-birth">Date Of Birth</label>
+            <input type="date" id="date-of-birth" />
+          </div>
+
+          <!-- Gender Field -->
+          <div class="field">
+            <label>Gender</label>
+            <!-- Female Choise -->
+            <label class="choice" for="gender-female">
+              <input
+                type="radio"
+                name="gender"
+                id="gender-female"
+                value="female"
+              />
+              Female
+            </label>
+            <!-- Male Choise -->
+            <label class="choice" for="gender-male">
+              <input
+                type="radio"
+                name="gender"
+                id="gender-male"
+                value="male"
+              />
+              Male
+            </label>
+          </div>
+
+          <!-- Register Button -->
+          <button type="submit">Register</button>
+
+          <!-- Reset Button -->
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script/libs/jquery-min.js"></script>
+    <script src="script/register.js"></script>
+  </body>
+</html>

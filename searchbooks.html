@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>IT project </title>
+        <link rel="stylesheet" href="CSS/IT project .css" type="text/css" />
+        <style>
+            #searching
+            {
+                
+                border-radius: 50px;
+                border: 3px solid yellow;
+                padding: 12px 20px 12px 40px;
+                width: 75%;
+                font-size: 20px;
+               
+            }
+            #list
+            {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            #list li a
+            {
+                border: 1px solid #D6D6D6;
+                margin-top: -1px;
+                background-color: #f6f6f6;
+                padding: 10px;
+                font-size: 17px;
+                display: block;
+                text-decoration: none;
+                width: 75%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <input id="searching" type="text" onkeyup="myFunction();" placeholder="search a Book.."  title="type a book name" ></div>
+        
+        <ul id="list">
+            <li><a href="#">Gödel, Escher, Bach</a></li>
+            <li><a href="#">What Is Mathematics?</a></li>
+            <li><a href="#">Mathematical Methods<br> in the Physical Sciences</a></li>
+            <li><a href="#"> Principles of mathematical analysis</a></li>
+            
+            <li><a href="#">Clean Code</a></li>
+            <li><a href="#">Code Complete</a></li>
+            <li><a href="#">Introduction to Algorithms</a></li>
+            <li><a href="#">Structure and Interpretation of<br>Computer Programs</a></li>
+            
+            <li><a href="#">Chemistry: The Central Science</a></li>
+            <li><a href="#">Organic Chemistry</a></li>
+            <li><a href="#">Introductory Chemistry</a></li>
+            <li><a href="#">Napoleon's Buttons</a></li>
+            
+            <li><a href="#">Blue Ocean Strategy</a></li>
+            <li><a href="#">The New Rules<br>of Marketing and PR</a></li>
+            <li><a href="#">Growth Hacker Marketing</a></li>
+            <li><a href="#">Trust Me, I'm Lying</a></li>
+
+        </ul>
+        
+       
+
+        <script>
+         function myFunction() {
+           var input, filter, ul, li, a, i;
+           input = document.getElementById("searching");
+           filter = input.value.toUpperCase();
+           ul = document.getElementById("list");
+           li = ul.getElementsByTagName("li");
+           for (i = 0; i < li.length; i++) {
+             a = li[i].getElementsByTagName("a")[0];
+             if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+               li[i].style.display = "";
+             } else {
+               li[i].style.display = "none";
+             }
+           }
+         }
+         </script>
+        
+    </body>
+</html>

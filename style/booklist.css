@@ -1,0 +1,78 @@
+#searching
+{
+    
+    border-radius: 50px;
+    border: 3px solid yellow;
+    padding: 12px 20px 12px 40px;
+    width: 75%;
+    font-size: 20px;
+   
+}
+
+#parent
+{
+    list-style-type: none;
+}
+body
+{
+    background-color: #C9C3C3
+}
+
+#child
+{
+    float: left;
+    margin: 20px;
+    
+}
+#child a
+{
+    color:blue;
+    display: block;
+}
+
+#child a:hover
+{
+    color: red;
+}
+
+img
+{
+    width: 150px;
+    height: 150px
+}
+
+fieldset
+{
+    width: 75%;
+    background-color:#EDEBEA ;
+    border: 0px solid black;
+    margin: 30px;    
+
+}
+legend
+{
+   font-style: italic;
+   border: 2px solid #B76363;
+   padding: 10px;
+   background-color: #FF1919;
+   color: #282525 ;
+
+}
+
+
+.search {
+    text-decoration: none;
+    font-style: italic;
+   border: 2px solid #B76363;
+   background-color: #FF1919;
+   color: #282525 ; 
+    max-width: 1000px;
+    margin: auto;
+    padding: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+
+

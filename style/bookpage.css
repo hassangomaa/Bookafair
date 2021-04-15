@@ -1,0 +1,242 @@
+
+
+
+.bookpage1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0 auto; /* Center website */
+  max-width: 800px; /* Max width */
+  padding: 20px;
+}
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+   }
+ .side, .middle {
+    width: 100%;
+  .right {
+    display: none;
+  }
+}
+
+div.a {
+  text-align: center;
+}
+
+div.rrr {
+  text-align: right;
+}
+div.c {
+  text-align: right;
+  
+  border: 2px solid green;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+} 
+div.author {
+
+text-align: center; 
+  border: 3px solid black;
+  border-style: ridge;
+
+
+}
+ 
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.pages {background-color: #4CAF50;} /* Green */
+.publisher {background-color: #2196F3;} /* Blue */
+.icon {background-color: #ff9800;} /* Orange */
+.rating {background-color: #f44336;} /* Red */
+.home {background-color: #e7e7e7; color: black;} /* Gray */
+.book {background-color: #BC8F8F;} /* Brown */
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:hover {background-color: #f5f5f5;}
+td:hover {background-color: #f5f5f5;}
+td:nth-child(even) {background-color: #f2f2f2;}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+tr:hover {background-color: #f5f5f5;}
+td:hover {background-color: #f5f5f5;}
+td:nth-child(even) {background-color: #f2f2f2;}
+
+.center {
+ text-align: center
+ 
+ 
+ 
+ h5 {
+ text-align:center
+}
+}
+
+
+.pages {background-color: #4CAF50;} /* Green */
+.publisher {background-color: #2196F3;} /* Blue */
+.icon {background-color: #ff9800;} /* Orange */
+.rating {background-color: #f44336;} /* Red */
+.name {background-color: #e7e7e7; color: black;} /* Gray */
+.book {background-color: #BC8F8F;} /* Brown */
+
+/* Style buttons */
+.btndd {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btndd:hover {
+  background-color: RoyalBlue;
+}
+ 
+ 
+ p1 {
+  font-size: 30px;
+}
+p2 {
+  font-size: 25px;
+}p3 {
+  font-size: 20px;
+}
+p4 {
+  font-size: 15px;
+}

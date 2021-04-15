@@ -1,0 +1,158 @@
+ 
+        /* Style the table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+/* Style table headers and table data */
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th {
+  width: 15%;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+	.checked {
+  color: red;
+}
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.pages {background-color: #4CAF50;} /* Green */
+.publisher {background-color: #2196F3;} /* Blue */
+.icon {background-color: #ff9800;} /* Orange */
+.rating {background-color: #f44336;} /* Red */
+.name {background-color: #e7e7e7; color: black;} /* Gray */
+.book {background-color: #BC8F8F;} /* Brown */
+
+
+.center {
+ text-align: center
+ 
+ 
+ 
+ p {
+ text-align:center
+}
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+.btn {
+  border-radius: 5px;
+}
+
+/*  Home page padding (left-right-top-bottom         */
+div.hh {
+  border: 2px solid green;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+
+
+/* Style buttons */
+.btndd {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btndd:hover {
+  background-color: RoyalBlue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

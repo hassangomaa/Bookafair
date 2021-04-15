@@ -1,0 +1,184 @@
+body
+{
+	height:3000px;
+	background-color:#CBD3F3;
+	
+	
+	
+}
+.headpho
+{
+	height:0px;
+	width:0px;
+	position:relative;
+	left:-430px;
+
+	
+}
+#change
+{
+	font-size:30px;
+	padding:30px 100px 0px 100px;
+	font-family: system-ui;
+	/*color: darkblue;*/
+	color:black
+	
+	
+	
+}
+#seemore
+{
+	text-decoration:none;
+	color:blue;
+	
+}
+#span
+{
+	position:absolute;
+	right:300px;
+	font-size:30px;
+	
+	
+	
+}
+#span:hover
+{
+	
+	cursor:pointer;
+	background-color:SteelBlue;
+	
+	
+	
+}
+#span2
+{
+	position:absolute;
+	right:170px;
+	font-size:30px
+	
+}
+#span2:hover
+{
+	cursor:pointer;
+	background-color:SteelBlue;
+	
+}
+#head
+{
+	margin-top:50px;
+	width:400px;
+	height:150;
+	font-size:30px;
+	/*color:DarkBlue;*/
+	color:black;
+	font-family: cursive;
+	border-left:9px solid darkblue;
+	border-bottom:2px solid darkblue;
+	padding:5px;
+}
+#divv1,#divv2,#divv3,#divv4,#divv5
+{
+	width:350px;
+	height:550px;
+	background-color:white;
+	margin:40px 0px 40px 180px;
+	border:2px solid grey;
+	border-radius:5px;
+}
+#divv5
+{
+	margin:40px 0px 40px 450px;
+}
+#divv1,#divv2,#divv3,#divv4
+{
+	display:inline-block;
+}
+#divv1:hover
+{
+	border:4px groove khaki;
+
+}
+#divv2:hover
+{
+	border:4px groove dimgrey;
+	
+}
+#divv3:hover
+{
+	border:4px groove lightblue;
+}
+
+#divv4:hover
+{
+	border:4px groove tan;
+	
+}
+#divv5:hover
+{
+	border:4px groove #000042;
+	
+}
+#pho
+{
+	width:250px;
+	height:400px;
+}
+#button
+{
+	margin-top:30px;
+	background-color:black;
+	color:darkred;
+	padding:5px;
+	border:20px black;
+	border-radius:4px;
+	position:relative;
+	left:580px;
+	
+	
+}
+#button:hover
+{
+	background-color:darkgrey;
+	cursor:pointer;
+}
+#button2
+{
+	margin-top:10px;
+	background-color:white;
+	color:darkblue;
+	padding:5px;
+	border:20px white;
+	border-radius:4px;
+	position:relative;
+	left:573px;
+	
+	
+}
+#button2:hover
+{
+	background-color:darkgrey;
+	cursor:pointer;
+}
+#lastbooks
+{
+	width:300px;
+	height:150;
+	margin-bottom:10px;
+	border-left:5px groove blue;
+	font-size:40px;
+	background-color:grey;
+}
+#lastbooks:hover
+{
+	background-color:lightgrey;
+}
+#pho
+{
+	width:350px;
+	height:550px;
+}
+
+
+
+
+
